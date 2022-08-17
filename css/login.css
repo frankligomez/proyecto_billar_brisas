@@ -1,0 +1,89 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin:0px;
+  padding:0px;
+   font-family: verdana;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+  padding-top:10%;
+}
+html{
+    background-color: #4B4A4A; /*url(../img/fondo.jpg) no-repeat center center;*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+p{
+	text-align:center;
+	color: #F70713;
+	margin: 1% 0%;
+	font-size: 1.5em;
+}
+form {
+  position: relative;
+  z-index: 1;
+  background: flat;
+  max-width: 345px;
+  margin: 0 auto 100px;
+  padding: 15px 20px;
+  text-align: center;
+  border: 1px solid #F70713;
+  box-shadow: 0 0px 10px #FFF !important;
+}
+
+form img{
+    width: 50%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+form input{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: rgba(0,0,0,.0);
+  border: 1px;
+  border-bottom: 1px solid #F70713;
+  color: #F70713;
+  width: 100%;
+  border: 0;
+  margin: 0 0 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+form input:focus {
+  border-bottom:2px solid #F70713;
+}
+form input[type="submit"]{
+      border: 1px solid #F70713;
+      box-shadow: 0 0px 10px #F70713 !important;
+      background: #F70713;
+      cursor:pointer;
+      color:white;
+}
+h2{
+  color: #fff;
+  font-size: 1.5em;
+  padding: -10px 30px;
+  border-radius:5px;
+  
+}
+form input[type="submit"]:hover,.form input[type="submit"]:active,.form input[type="submit"]:focus {
+  color: #F70713;
+  background: #fff;
+  border:1px solid #F70713;
+}
+.bordes{
+	border-bottom:1px solid #F70713;
+}
+ul{
+    display: block;
+    color: white;
+    list-style: none;
+    font-size: .8em;
+    font-weight: bold;
+}
+

@@ -1,0 +1,136 @@
+
+
+
+body {
+			font-size: 20px;
+			color: #343d44;
+			font-family: "segoe-ui", "open-sans", tahoma, arial;
+			padding: 0;
+			margin: 0;
+		}
+
+table {
+			margin: auto;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+			font-size: 20px;
+		}
+h1 {
+			margin: 50px auto 0;
+			text-align: center;
+			font-size: 15px;
+		}
+div {
+			margin: 20px auto 0;
+			text-align: center;
+			font-size: 17px;
+		}
+table td {
+			transition: all .5s;
+		}
+/* Table */
+		.tabla_datos {
+			border-collapse: collapse;
+			font-size: 10px;
+			min-width: 537px;
+            
+		}
+.tabla_datos th, 
+		.tabla_datos td {
+			border: 1px solid #e1edff;
+			padding: 7px 17px;
+            text-align:  center;
+		}
+		.tabla_datos caption {
+			margin: 7px;
+		}
+/* Table Header */
+		#titulo {
+			background-color: #686666;
+			color: #FFFFFF;
+			border-color: #6ea1cc !important;
+            
+		}
+/* Table Body */
+		.tabla_datos tbody td {
+			color: #353535;
+            text-align: center;
+		}
+		.tabla_datos tbody td:first-child,
+		.tabla_datos tbody td:nth-child(4),
+		.tabla_datos tbody td:last-child {
+			text-align: center;
+		}
+.tabla_datos tbody tr:nth-child(odd) td {
+			background-color: #f4fbff;
+		}
+.tabla_datos tbody tr:hover td {
+			background-color: red;
+			border-color:red;
+		}
+
+
+
+
+body {
+			font-size: 20px;
+			color: #343d44;
+			font-family: "segoe-ui", "open-sans", tahoma, arial;
+			padding: 0;
+			margin: 0;
+		}
+
+table {
+			margin: auto;
+			font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+			font-size: 20px;
+		}
+h1 {
+			margin: 50px auto 0;
+			text-align: center;
+			font-size: 15px;
+		}
+div {
+			margin: 20px auto 0;
+			text-align: center;
+			font-size: 17px;
+		}
+table td {
+			transition: all .5s;
+		}
+/* Table */
+		.tabla_datos {
+			border-collapse: collapse;
+			font-size: 15px;
+			min-width: 537px;
+		}
+.tabla_datos th, 
+		.tabla_datos td {
+			border: 1px solid #e1edff;
+			padding: 7px 17px;
+		}
+		.tabla_datos caption {
+			margin: 7px;
+		}
+/* Table Header */
+		#titulo {
+			background-color: #686666;
+			color: #FFFFFF;
+			border-color: #6ea1cc !important;
+		}
+/* Table Body */
+		.tabla_datos tbody td {
+			color: #353535;
+		}
+		.tabla_datos tbody td:first-child,
+		.tabla_datos tbody td:nth-child(4),
+		.tabla_datos tbody td:last-child {
+			text-align: right;
+		}
+.tabla_datos tbody tr:nth-child(odd) td {
+			background-color: #f4fbff;
+		}
+.tabla_datos tbody tr:hover td {
+			background-color: #ffffa2;
+			border-color: #ffff0f;
+		}
+        

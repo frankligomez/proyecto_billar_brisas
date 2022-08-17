@@ -1,0 +1,64 @@
+
+/* contador */
+.contador {
+	font-family: 'sans serif';
+}
+.times .time {
+	
+}
+.times .time:first-child {
+	border-right: 0px;
+}
+.times .time:last-child {
+	border-left: 0px;
+}
+.times .time i {
+	font-size: 100%;
+}
+.crono-width {
+	background: #fff;
+	width: 100%;
+	margin: 0px;
+}
+.btn-crono {
+	color: #fff;
+	cursor: pointer;
+	font-size: 30px;
+	padding: 20px;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	-moz-transition: 0.3s all;
+	-o-transition: 0.3s all;
+}
+.active-btn {
+	background:#f70713  !important;
+    border-radius: 4px;
+	
+}
+.active-btn:hover {
+	background: #686666 ;
+	border-bottom: 2px solid #f70713;
+    border-radius: 6px;
+}
+.start-btn {
+	background: #686666 ;
+	border-bottom: 2px solid #f70713;
+    border-radius: 6px;
+}
+.start-btn:hover {
+	background:#f70713;
+    color:#fff;
+    border-radius: 6px;
+}
+.stop-btn {
+	border-radius: 6px;
+	
+}
+.stop-btn:hover {
+	background: #000;
+}
+/* separator */
+.separator {
+	margin: 20spx 0;
+    position: relative;
+}

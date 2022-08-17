@@ -1,0 +1,479 @@
+/*banner principal de la pagina*/
+
+.center{
+margin-right:auto;
+margin-left:auto;
+}
+
+#izquierda,#derecha{
+float:left;
+          }
+          
+#principal{
+width:1024px;
+min-height:1024px;
+padding:5px;
+background-color: #fff ;
+box-shadow: 10px 10px 5px #888888;
+border-radius: 10px;
+}
+
+/* ediciones de body especificos*/
+
+#principal1{
+  width:1024px;
+  min-height:970px;
+  padding:5px;
+  background-color: #FFE4C4 ;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+}
+#principal2{
+  width:1024px;
+  min-height:960px;
+  padding:5px;
+  background-color: #FFE4C4 ;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+}
+
+#principal3{
+  width:1024px;
+  min-height:1000px;
+  padding:5px;
+  background-color: #FFE4C4 ;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 10px;
+}
+
+img {
+	width:1000px;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #888888;
+}	
+
+body { 
+  background:#686666;
+  font-family: helvetica, arial, serif;
+  font-size: 13px;
+  /*text-transform: uppercase;*/ /*poner todo el texto en mayuscula*/
+  text-align: center;
+}
+
+/*menu desplegble*/
+ 
+.wrap {
+  display: inline-block;
+  width: 860px;
+  -webkit-box-shadow: 0 0 70px #fff;
+  -moz-box-shadow: 0 0 70px #fff;
+  box-shadow: 0 0 70px #fff;
+  margin-top: 10px;
+  position: center;
+  border-radius:10px; 
+  text-transform: uppercase;
+}
+
+/* a little "umph" */
+.decor {
+  background: #F70713;
+  background: -webkit-linear-gradient(left, #F70713 50%, #0E4FF2 50%);
+  background: -moz-linear-gradient(left, #F70713 50%, white 50%);
+  background: -o-linear-gradient(left, #CDEBDB 50%, #6EAF8D 50%);
+  background: linear-gradient(left, white 50%, #6EAF8D 50%);
+  background-size: 50px 25%;;
+  padding: 2px;
+  display: block;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  position: center;
+  text-align: left;
+}
+
+li {
+  float: left;
+}
+
+/* clear'n floats */
+ul:after {
+  clear: both;
+}
+
+ul:before,
+ul:after {
+    content: " ";
+    display: table;
+}
+
+nav {
+  position: relative;
+  background: #2B2B2B;
+  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #010101;
+  -webkit-box-shadow: 2px 2px 3px #888;
+  -moz-box-shadow: 2px 2px 3px #888;
+  box-shadow: 2px 2px 3px #888;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
+
+/* primary */
+ul.primary li a {
+  display: block;
+  padding: 20px 30px;
+  border-right: 1px solid #3D3D3D;
+  }
+
+ul.primary li:last-child a {
+  border-right: none;
+}
+
+ul.primary li a:hover {
+  
+  color: #000;
+}
+
+/* subs */
+ul.sub {
+  position: absolute;
+  z-index: 200;
+  box-shadow: 2px 2px 0 #BEBEBE;
+  width: 35%;
+  display:none;
+}
+
+ul.sub li {
+  float: none;
+  margin: 0;
+}
+
+ul.sub li a {
+  border-bottom: 1px dotted #ccc;
+  border-right: none;
+  color: #000;
+  padding: 15px 30px;
+}
+
+ul.sub li:last-child a {
+  border-bottom: none;
+}
+
+ul.sub li a:hover {
+  color: #000;
+  background: #eeeeee;
+}
+
+/*pantalla secundaria*/
+ul.primary li:hover ul {
+  display: block;
+  background: #fff;
+}
+
+/* fondo de la pestaña en blanco */
+ul.primary li:hover a {
+  background: #fff;
+  color: #666;
+  text-shadow: none;
+}
+
+ul.primary li:hover > a{
+  color: #000;
+} 
+
+@media only screen and (max-width: 600px) {
+.decor {
+    padding: 3px;
+}
+  
+.wrap {
+    width: 100%;
+    margin-top: 0px;
+}
+  
+li {
+    float: none;
+}
+  
+ul.primary li:hover a {
+    background: none;
+    color: #8B8B8B;
+    text-shadow: 1px 1px #000;
+}
+
+ul.primary li:hover ul {
+    display: block;
+    background: #272727;
+    color: #fff;
+}
+  
+ul.sub {
+    display: block;  
+    position: static;
+    box-shadow: none;
+    width: 100%;
+}
+  
+ul.sub li a {
+    background: #272727;
+    border: none;
+    color: #8B8B8B;
+}
+  
+ul.sub li a:hover {
+    color: #ccc;
+    background: none;
+  }
+}	
+
+/*slideshow*/
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 15s infinite alternate linear;
+}
+
+.slider li {
+    width: 1}1000%;
+	list-style: none;
+	
+}
+
+.slider img {
+	width: 100%;
+		
+}
+
+@keyframes cambio {
+	0% {margin-left: -90;}
+	20% {margin-left: -90;}
+	
+	25% {margin-left: -90%;}
+	45% {margin-left: -90%;}
+	
+}
+
+/*redes sociales */	
+
+.social {
+	float:right; /* Establecemos la barra en la izquierda */
+	top: 85px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook2 {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-google3 {background: #d95232;}
+	.social ul li .icon-mail2	{background: #666666;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+/*color al tipo de letra*/
+	
+em {
+color:#F70713;	
+}	
+
+/*ediciones de imagenes*/
+
+img:hover{ 
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.banner img:hover{ 
+    -webkit-transform: none;
+    transform: none;
+}
+
+#pie_pagina img:hover{ 
+    -webkit-transform: none;
+    transform: none;
+}	
+
+.gif img {
+ width: 700px;
+ height:300px; 
+}
+
+.imagen_baner {
+ width: 850px;
+ height:200px; 
+}
+
+
+.mis img {
+ width:450px;
+ height:300px;
+}	
+
+.con img {
+ width:690px;
+ height:400px;
+}	
+
+
+
+
+
+.his img {
+ width:400px;
+ height:200px;
+}
+
+.serv img {
+ width:450px;
+ height:600px;
+ margin-right:20px; 
+ float:right;
+}
+
+.hor {
+ width:400px;	
+ height:100px;
+}
+
+/*lista de servicios*/
+
+#lista1 ul { 
+    list-style:none; 
+	margin-left:-30px;
+}
+
+#lista1 ul li { 
+    font-family:Georgia,serif,Times; 
+    font-size:18px; 
+}
+
+#lista1 ul li a { 
+    display:block; 
+    width:500px; 
+    height:40px; 
+    background-color:#333; 
+    border-left:5px solid #222; 
+    border-right:5px solid #222; 
+    padding-left:10px;
+    text-decoration:none; 
+    color:#f70713; 
+}
+
+#lista1 ul li a:hover { 
+    -moz-transform:rotate(-5deg); 
+    -moz-box-shadow:10px 10px 20px #000000;
+    -webkit-transform:rotate(-5deg); 
+    -webkit-box-shadow:10px 10px 20px #000000;
+    transform:rotate(4deg); box-shadow:10px 10px 20px #000000; 
+    margin-left: 10px;
+}
+
+/*formulario de contactenos*/
+
+form {
+width: 450px;
+margin: auto;
+padding: 10px 20px;
+box-sizing: border-box;
+margin-top: 20px;
+border-radius: 10px;
+
+
+}   
+  
+  
+h2 {
+color: #fff;
+text-align: center;
+margin: 0;
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+
+
+input, textarea {
+width: 100%;
+margin-bottom: 20px;
+padding: 7px;
+box-sizing: border-box;
+font-size: 17px;
+border: none;
+border-radius: 10px;
+float:left;
+
+}
+  
+textarea {
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+
+}   
+  
+#boton{
+background: #00BFFC;
+color: #fff;
+padding: 20px;	
+}   
+
+#boton:hover {
+cursor: pointer;
+background: rgba(0,0,0,0);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+
+}
+
+@media (max-width: 480px) {
+form{
+width: 100%;
+}
+} 
+
+
+/* tarjetas 3d*/
+
+
+
+.
+
